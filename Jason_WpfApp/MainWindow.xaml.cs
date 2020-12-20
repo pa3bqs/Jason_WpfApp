@@ -70,6 +70,7 @@ namespace Jason_WpfApp
             };
             roll  = JsonConvert.DeserializeObject<Roll_info>(text_box.Text  );
             freq_box.Text = roll.Meas[0].Frequency.ToString();
+            batch_box.Text = roll.Batch_info;
         }
 
         private void encrypt_texbox_Click(object sender, RoutedEventArgs e)

@@ -26,6 +26,7 @@
                 <Button x:Name="encrypt_textbox" Content="_Encrypt  textbox" Click="encrypt_texbox_Click"/>
                 <Button x:Name="decrypt_textbox" Content="_Dncrypt  textbox" Click="decrypt_textbox_Click"/>
                 <TextBox x:Name="freq_box" Text="freq" />
+                <TextBox x:Name="batch_box" Text="batch" />
             </StackPanel>
             <ScrollViewer  Grid.Row="0"  Grid.Column ="1">
                 <TextBox x:Name="text_box"  Text="Mijn Test" 
